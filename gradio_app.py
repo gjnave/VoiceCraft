@@ -606,7 +606,7 @@ if __name__ == "__main__":
     parser.add_argument("--demo-path", default="./demo", help="Path to demo directory")
     parser.add_argument("--tmp-path", default="./demo/temp", help="Path to tmp directory")
     parser.add_argument("--models-path", default="./pretrained_models", help="Path to voicecraft models directory")
-    parser.add_argument("--port", default=7860, type=int, help="App port")
+    parser.add_argument("--port", default=7861, type=int, help="App port")
     parser.add_argument("--share", action="store_true", help="Launch with public url")
     parser.add_argument("--server_name", default="127.0.0.1", type=str, help="Server name for launching the app. 127.0.0.1 for localhost; 0.0.0.0 to allow access from other machines in the local network. Might also give access to external users depends on the firewall settings.")
 
